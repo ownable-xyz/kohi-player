@@ -1,0 +1,36 @@
+# kohi-player: the piece player, KohiPiece and HolderSale.
+#
+# Reproducible bytecode: bytecode_hash = "none" and cbor_metadata = false, so
+# the deployed code depends on the source and these settings only, and a
+# comment-only edit leaves it unchanged. Change no compiler setting below
+# without re-checking every recorded deployment.
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.37"
+# Cancun matches the live Kohi engine these contracts call, and MCOPY
+# (EIP-5656), which PiecePlayer uses to assemble its page.
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+via_ir = false
+# Script and test memory: a tokenURI is about 540 KB and the preview reads several.
+memory_limit = 1073741824
+# Scripts and tests only (never the deployed code): the preview calls tokenURI,
+# about 45M gas each, several times in one script call.
+gas_limit = "18446744073709551615"
+disable_block_gas_limit = true
+bytecode_hash = "none"
+cbor_metadata = false
+fs_permissions = [
+    { access = "read", path = "./assets" },
+    { access = "read", path = "./pieces" },
+    { access = "read", path = "./test/golden" },
+    { access = "read-write", path = "./preview" },
+]
+
+[rpc_endpoints]
+mainnet = "${MAINNET_RPC_URL}"

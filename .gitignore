@@ -1,0 +1,11 @@
+out/
+cache/
+broadcast/
+.env
+.env.*
+node_modules/
+dist/
+preview/
+deploy/fork.json
+pieces/*/.deploy-piece.json
+pieces/*/.rehearsal-piece.json

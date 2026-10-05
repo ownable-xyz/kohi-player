@@ -1,0 +1,18 @@
+{
+  "rakel-collection": {
+    "cid": "bafybeiecxclixoytwiqsybnrippftrytkt26uibrr3sj5ablwb6i2fo7ei",
+    "base": "ipfs://bafybeiecxclixoytwiqsybnrippftrytkt26uibrr3sj5ablwb6i2fo7ei/",
+    "files": 3,
+    "bytes": 860934,
+    "from": "rakel-collection",
+    "at": "2026-10-05T01:15:21.567Z"
+  },
+  "rakel-works": {
+    "cid": "bafybeifhe3zwculpcnkm7pvd75axjonsqfuc3eirjiv2lzotjl4pxwud2m",
+    "base": "ipfs://bafybeifhe3zwculpcnkm7pvd75axjonsqfuc3eirjiv2lzotjl4pxwud2m/",
+    "files": 64,
+    "bytes": 66594301,
+    "from": "rakel-works",
+    "at": "2026-10-05T01:15:42.776Z"
+  }
+}

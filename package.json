@@ -1,0 +1,14 @@
+{
+  "name": "kohi-player",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSING.md",
+  "scripts": {
+    "attribution": "tsx tools/attribution.ts",
+    "deploy": "node tools/deploy.mjs"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "viem": "^2.54.2"
+  }
+}

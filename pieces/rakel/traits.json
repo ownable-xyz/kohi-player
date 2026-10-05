@@ -1,0 +1,45 @@
+[
+  {
+    "id": 0,
+    "name": "Species",
+    "kind": "choice",
+    "labels": [
+      "Monolith",
+      "Veil",
+      "Crossfire",
+      "Churn"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Register",
+    "kind": "choice",
+    "labels": [
+      "Kiln",
+      "Nocturne",
+      "Gloaming",
+      "Willow",
+      "Phosphor",
+      "Reliquary",
+      "Meridian",
+      "Orchard",
+      "Quarry",
+      "Auric",
+      "Clerestory"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Light",
+    "kind": "choice",
+    "labels": [
+      "Night",
+      "Daylight"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Passes",
+    "kind": "number"
+  }
+]

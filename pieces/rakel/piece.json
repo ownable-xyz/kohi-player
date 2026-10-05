@@ -1,0 +1,36 @@
+{
+  "name": "Rakel",
+  "symbol": "RAKEL",
+  "maxSupply": 64,
+  "family": 3,
+  "noiseKind": 0,
+  "program": "pieces/rakel/program.hex",
+  "params": [],
+  "traits": "pieces/rakel/traits.json",
+  "seeds": "pieces/rakel/seeds.json",
+  "description": "After Richter's squeegee: paint dragged, torn and layered across a surface. Sixty-four works, kept on chain not as pictures but as the instructions that paint them.",
+  "contractImage": "ipfs://bafybeiecxclixoytwiqsybnrippftrytkt26uibrr3sj5ablwb6i2fo7ei/logo.jpg",
+  "contractBannerImage": "ipfs://bafybeiecxclixoytwiqsybnrippftrytkt26uibrr3sj5ablwb6i2fo7ei/banner.jpg",
+  "contractFeaturedImage": "ipfs://bafybeiecxclixoytwiqsybnrippftrytkt26uibrr3sj5ablwb6i2fo7ei/featured.jpg",
+  "externalLink": "https://ownable.art",
+  "creator": "0x16cCd2a1346978e27FDCbda43569E251C4227341",
+  "player": "0x0000000000000000000000000000000000000000",
+  "mintTo": [
+    "0x16cCd2a1346978e27FDCbda43569E251C4227341",
+    "0x00aa5Ba307dfE79C111df5B2f9e79d7F63458561"
+  ],
+  "mintCount": [
+    15,
+    49
+  ],
+  "royaltyReceiver": "0x00aa5Ba307dfE79C111df5B2f9e79d7F63458561",
+  "royaltyBps": 500,
+  "saleSeller": "0x00aa5Ba307dfE79C111df5B2f9e79d7F63458561",
+  "salePrice": "50000000000000000",
+  "saleStart": 1791459882,
+  "saleCollections": [
+    "0xDf6e32D85d17e907e0DA157faB7C12788e7161Da",
+    "0x1aBA27D6A420feb25aF6CF6b80b93B7526725a71",
+    "0xA04C6BD65E4352B30DCc6B0f21CF58aDEcc52781"
+  ]
+}
